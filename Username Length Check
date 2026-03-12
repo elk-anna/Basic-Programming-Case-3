@@ -1,0 +1,8 @@
+username = input("enter your username: ")
+
+length = len(username)
+
+if length < 5:
+    print("username is too short!")
+else:
+    print(f"username {username} is accepted!")
