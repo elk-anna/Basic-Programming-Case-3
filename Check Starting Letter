@@ -1,0 +1,6 @@
+word = input("Enter a word: ")
+
+if word.startswith("A") or word.startswith("a"):
+    print("Starts with A")
+else:
+    print("Does not start with A")
