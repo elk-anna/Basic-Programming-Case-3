@@ -1,0 +1,6 @@
+word = input("Enter your word")
+
+word = word.capitalize()
+
+print(word)
+
