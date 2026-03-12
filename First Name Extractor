@@ -1,0 +1,7 @@
+full_name = input("Enter your full name: ")
+
+name_parts = full_name.split()
+
+first_name = name_parts[0]
+
+print("First name:", first_name)
